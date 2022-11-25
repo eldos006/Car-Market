@@ -1,0 +1,29 @@
+{% load static %}
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+  <div class="nav">
+    <a class="navbar-brand" href="#">
+      <img src="{% static 'page/img/logo_shop.png' %}" class="logo">
+    </a>
+    <div class="container-nav">
+        <a class="navbar-brand" href="{% url 'home' %}">Главная</a>
+        <a class="navbar-brand" href="{% url 'feedback' %}">Обратная связь</a>
+        <a href="{% url 'form' %}"><i class="fa-light fa-circle-plus">добавление</i></a>
+    </div>
+    <div class="navbar navbar-light bg-light" style="width: 335px;">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Что ищем?" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+  <div class="user-menu">
+    <a class="user-menu-a" href="{% url 'register' %}">
+      <p class="user-text">
+        Войти
+        <span class="dot-spreader">•</span>
+        Регистрация
+      </p>
+    </a>
+  </div>
+</nav>

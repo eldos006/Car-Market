@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/plita.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">11 690 сом</h5>
+        <p class="card-text">Газовая плита ARG CGG50W0</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/gaz2.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">55 890 сом</h5>
+        <p class="card-text">Комбинированная плита Bosch</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/gaz4.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">37 090 сом</h5>
+        <p class="card-text">Электрическая плита Bosch HKA050050Q</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+      <div class="card">
+        <img class="card-img-top" src="{% static 'page/img/a52.jpg' %}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> 28950 сом </h5>
+          <p class="card-text">Смартфон Samsung Galaxy A52 (4+128) EU</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="{% static 'page/img/a33.jpg' %}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> 34850 сом </h5>
+          <p class="card-text"> Смартфон Samsung Galaxy A33 5G (6+128) EU </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="{% static 'page/img/s21.jpg' %}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">44550 сом </h5>
+          <p class="card-text">Смартфон Samsung Galaxy S21 FE (8+256) EU </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

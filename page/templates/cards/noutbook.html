@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/asus.rog.png' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">107000 сом</h5>
+        <p class="card-text">Asus ROG Strix G513</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/asus.tuf.png' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 105000 сом </h5>
+        <p class="card-text">Asus TUF Gaming A15 2022 (AMD 6000 series) RTX3050</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/asusx.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">58000 сом </h5>
+        <p class="card-text">Asus X515EA</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

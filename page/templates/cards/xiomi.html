@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+        <img class="card-img-top" src="{% static 'page/img/shark.jpg' %}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">31750 сом </h5>
+          <p class="card-text">Смартфон Xiaomi Black Shark 4 (12+128) EU</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="{% static 'page/img/new.jpg' %}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> 34850 сом </h5>
+          <p class="card-text">Смартфон Xiaomi 11T Pro (8+256) EU </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="{% static 'page/img/ultra.jpg' %}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">95950 сом</h5>
+          <p class="card-text">Смартфон Xiaomi 12S Ultra (12+256)</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

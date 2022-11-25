@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/xolod.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">81 690 сом </h5>
+        <p class="card-text">Холодильник Haier</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/xolod2.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">26 690 сом</h5>
+        <p class="card-text">Холодильник Atlant XM</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/xolod56.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">69 000 сом</h5>
+        <p class="card-text">Холодильник Samsung RL4353EBASL</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

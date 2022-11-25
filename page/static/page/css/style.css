@@ -1,0 +1,163 @@
+/*Navbar*/
+form{
+    width: 300px;
+    margin-right: 0px;
+}
+input{
+    width: 200px;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: #666;
+}
+.user-menu{
+    font-family: bold;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.user-text{
+    color:#FF8000;
+    text-decoration:none
+}
+/*#register{
+    width: 170px;
+    margin-right: 50px;
+    font-family: bold;
+    font-style: italic;
+
+}
+#voity{
+    width: 80px;
+    margin-right: 30px;
+    font-family: bold;
+    font-style: italic;
+}*/
+.container-nav{
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+/*ЛОГО*/
+.logo{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*Категории*/
+.container{
+    margin-top: 20px;
+}
+.panel {
+    position: relative;
+    z-index: 900;
+    width: 100%;
+    border-top: 3px solid #5693af;
+    height: 9px;
+}
+#panel {
+    line-height: 180%;
+    padding: 0 0;
+    margin: 0 auto;
+    width:100%;
+    max-width:1100px;
+    color:#fff;
+    font-size:10pt;
+}
+.nav_m_lett {
+    text-transform: uppercase;
+    padding: 4px 5px 4px 5px;
+    display:block;
+}
+. li_ott { padding: 0px 0px }
+
+
+
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    z-index:100;
+}
+.menu li a {
+    font-weight:600;
+    text-decoration:none;
+    padding:11px;
+    display:block;
+    color:#ffffff;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.menu li a:hover, .menu li:hover > a{color:#ffffff;background:#036d9e;}
+
+.menu ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 173px;
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    background: #ffffff;
+}
+.menu li:hover > ul{ display: block;}
+
+.menu ul li {
+    display:block;
+    float: none;
+    background:none;
+    margin:0;
+    padding:0;
+}
+.menu ul li a {
+    font-size:14px;
+    font-weight:normal;
+    display:block;
+    color:#fff;
+    border-left:0px solid #2a2121;
+    background:#036d9e;
+}
+.menu ul li a:hover, .menu ul li:hover > a{background:#0293d6;border-left:0px solid #3a8fca;color:#f4f4f4;}
+
+/*Карусел*/
+.carousel{
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left:20px;
+}
+.carousel img{
+    width: 1215px;
+    height: 680px;
+}
+Cards
+.card {
+    margin-top: 50px;
+    margin: 20px;
+    margin-left: 50px;
+    width: 300px;
+    display: inline-block; /**//**//**//* Строчно-блочный элемент *//**//**//**//*
+    overflow: hidden; *//**//**//**//* Скрываем всё за контуром *//**//**//**//*
+}*//**//*
+*//**//*.card img {
+    transition: 1s; *//**//**//**//* Время эффекта *//**//**//**//*
+    display: block; *//**//**//**//* Убираем небольшой отступ снизу *//**//**//**//*
+}
+.card img:hover {
+    transform: scale(1.2); *//**//**//**//* Увеличиваем масштаб *//**//**//**//*
+}
+
+.card-img-top{
+    width: 250px;
+    height: 200px;
+}*/
+
+
+
+

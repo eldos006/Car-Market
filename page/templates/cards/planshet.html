@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/sam.pad.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">35890 сом</h5>
+        <p class="card-text">Планшет Apple iPad 10.2″ (2021) 3/64GB Wi-Fi Space Grey</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/mi.pad.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 33 390 сом </h5>
+        <p class="card-text">Планшет Xiaomi Pad 5 6/128Gb White </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/plan.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">58000 сом </h5>
+        <p class="card-text">Планшет Samsung Galaxy Tab A7 Lite 8.7" 3/32GB LTE Gray</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

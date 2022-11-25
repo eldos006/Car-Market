@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/tele1.jpg' %}">
+      <div class="card-body">
+        <h5 class="card-title"> 113 690 сом </h5>
+        <p class="card-text">LED телевизор Samsung </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/tele2.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 46 690 сом </h5>
+        <p class="card-text"> LED телевизор Xiaomi</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/tele3.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">32 490 сом </h5>
+        <p class="card-text">LED телевизор Philips</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

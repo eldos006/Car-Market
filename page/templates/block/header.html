@@ -1,0 +1,26 @@
+{% load static %}
+<div class="panel">
+    <nav>
+        <ul class="menu">
+            <li><a href="#"><span class="nav_m_lett">ТЕЛЕФОН</span></a>
+                <ul class="sub-menu">
+                    <li><a href="{% url 'xiomi' %}">XIOMI</a></li>
+                    <li><a href="{% url 'apple' %}">APPLE</a></li>
+                    <li><a href="{% url 'samsung' %}">SAMSUNG</a></li>
+                    <li><a href="{% url 'honor' %}">HONOR</a></li>
+                </ul>
+            </li>
+            <li><a href="{% url 'noutbook' %}"><span class="nav_m_lett">НОУТБУК</span></a></li>
+            <li><a href="{% url 'planshet' %}"><span class="nav_m_lett">ПЛАНШЕТ</span></a></li>
+            <li><a href="#"><span class="nav_m_lett">БЫТОВАЯ ТЕХНИКА</span></a>
+                <ul class="sub-menu">
+                    <li><a href="{% url 'televizor' %}">ТЕЛЕВИЗОР</a></li>
+                    <li><a href="{% url 'xolodilnik' %}">ХОЛОДИЛЬНИК</a></li>
+                    <li><a href="{% url 'mikrovolnovka' %}">МИКРОВОЛНОВКА</a></li>
+                    <li><a href="{% url 'plita' %}">ПЛИТА</a></li>
+                </ul>
+            </li>
+            <li><a href="{% url 'acsesuars' %}"><span class="nav_m_lett">АКСЕССУАРЫ</span></a></li>
+        </ul>
+    </nav>
+</div>

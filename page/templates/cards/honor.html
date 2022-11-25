@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/honor10.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 30000 сом</h5>
+        <p class="card-text">Смартфон Honor 10X 5G (6+128) EU</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/honor60.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 50150 сом </h5>
+        <p class="card-text">Смартфон Honor 60 (8+256) EU </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/honor.60.pro.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 63750 сом  </h5>
+        <p class="card-text">Смартфон Honor 60 Pro (8+256) EU  </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends 'page/layout.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/fullimage1.jpg' %}">
+      <div class="card-body">
+        <h5 class="card-title"> 4 990 сом</h5>
+        <p class="card-text">СВЧ-печь ARG MS-2011D</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/mikro.jpg' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title"> 4 590 сом </h5>
+        <p class="card-text"> СВЧ-печь ARG MS-205MS</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="{% static 'page/img/mikro5.png' %}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">32 490 сом </h5>
+        <p class="card-text">Встраиваемая СВЧ-печь Bosch</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
